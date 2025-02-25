@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+body{
+    background: #2c3cd197;
+}
+
+.container{
+   margin: auto;
+   margin-top: 20px;
+   background: beige;
+   height: 80vh;
+   width: 70vw;
+   display: flex;
+   flex-direction: column;
+   overflow: scroll;
+   
+
+}
+
+
+.head{
+    
+    /* background: #f17676; */
+    flex-basis: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    border-radius:30px;
+    
+}
+.addtext{
+    background: transparent;
+    flex-basis: 10%;
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+    margin: auto;
+   
+    
+
+}
+
+.addtext input{
+    flex-basis:100%;
+    border: none;
+    outline: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.addtext button{
+    border: none;
+    
+    border-top-right-radius:20px;
+    border-bottom-right-radius: 20px;
+    background: rgb(246, 169, 169);
+   
+    
+}
+.addtext button:hover::before{
+    /* background: white; */
+    font-weight: bolder;
+    border: none;
+    content: 'Add';
+    color:lavenderblush;
+}
+
+
+#ul{
+    /* background: #000; */
+    flex-basis: 100%;
+}
+
+
+#ul li{
+ 
+    margin: auto;
+    background: #3414e6;
+    flex-basis: 10%;
+    margin-top: 10px;
+    list-style: none;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    font-size: 1.1em;
+    /* border-radius:30px; */
+    color: white;
+    position: relative;
+    width: 60vw;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    overflow: scroll;
+    border-radius: 1rem;
+    padding-left: 20px;
+}
+
+
+#ul li:hover{
+    background: #110169fd;
+}
+
+/* for removing scrollbar visibility but still functioning */
+#ul li::-webkit-scrollbar{
+    display: none;
+}
+
+
+#ul li button{
+    
+    
+    font-weight:bolder;
+    border: transparent;
+    border-radius: 20px;
+    margin-right: 10px;
+    color: red;
+    background: black;
+    position: sticky;
+    right:0px;
+    
+}
+
+
+#ul li button:hover::before{
+    width: 40px;
+    /* background: white; */
+    border: 2px solid black;
+    content: 'remove';
+    
+}
+
+
+
+/* #remove li:nth-child(1){
+    visibility: hidden;
+} */
+
+
+
+

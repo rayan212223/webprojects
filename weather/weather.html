@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"  type="text/css" href="weather.css">
+</head>
+<body>
+  <div id="top">
+   <div class="title ">Weather</div>
+    <div id="search"> 
+      <input id="enter" type="text" placeholder="Enter city name" spellcheck="false" class="hov">
+      <button id="btn" class="hov"></button>   
+    </div> 
+  </div> 
+    <div class="content">
+      <div id="first">
+        <div id="windspeed" class="boxes">
+            <img src="" alt="">
+            <p>Wind speed</p>
+            <p id="windspeedtxt"></p>
+        </div>
+        <div id="s1" class="boxes">
+            <img src="" alt="">
+            <p>Feels like</p>
+            <p id="feelsliketxt"></p>
+        </div>
+      </div>
+        
+      <div class="center" >
+        <div class="boxes">
+            <img src="" alt="">
+            <p id="temp">°C</p>
+            <p id="citytxt">City</p>
+        </div>   
+      </div>
+       
+     <div id="second"> 
+      
+        <div id="humidity" class="boxes">
+            <img src="" alt="">
+            <p>Humidity</p>
+            <p id="humiditytxt"></p>
+        </div>
+       
+        <div id="s2" class="boxes">
+            <img src="" alt="">
+            <p>Description</p>
+            <p id="descriptiontxt"></p>
+        </div>
+     </div>
+
+    </div>
+
+    <script src="weather.js"></script>
+</body>
+</html>
